@@ -1,8 +1,17 @@
 {
     "routes": [
       {
+        "route": "/",
+        "serve": "/",
+        "statusCode": 200
+      },
+      {
         "route": "/*",
-        "rewrite": "/index.html"
+        "serve": "/index.html",
+        "statusCode": 200
       }
-    ]
+    ],
+    "platform": {
+      "nodeVersion": "20"
+    }
   }

@@ -12,6 +12,7 @@
       }
     ],
     "platform": {
-      "nodeVersion": "20"
+      "nodeVersion": "14"
     }
   }
+  
